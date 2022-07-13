@@ -9,11 +9,8 @@
     "description": { "string": {}},
     "price": { "string": {}},
     "images": {
-        "string": [
-          "working from home",
-          "watching Netflix"
-        ]
-      },
+      "hasMany": "Image"
+    },
       "sizes": {
         "string": [
           "XS",
@@ -23,6 +20,14 @@
           "XL"
         ]
       }
+  },
+//  "Images": {
+//    "image": {
+//      "string": {},
+//      "hasMany": "Image",
+//  },
+  "Image": { 
+    "id": { "string": {}},
   },
   "Post": {
     "title": { "string": {} },
