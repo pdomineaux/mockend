@@ -3,3 +3,28 @@
     "title": { "string": {} }
   }
 }
+
+{
+  "Product": {
+    "id": { "string": {}},
+    "name": { "string": {}},
+    "image": { "string": {}},
+    "description": { "string": {}},
+    "price": { "string": {}},
+    "images": {
+        "string": [
+          "working from home",
+          "watching Netflix"
+        ]
+      },
+      "sizes": {
+        "string": [
+          "XS",
+          "S",
+          "M",
+          "L",
+          "XL"
+        ]
+      }
+  }
+}
