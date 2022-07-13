@@ -25,6 +25,7 @@
     "id": { "string": {}},
     "image": {
       "belongsTo": "Images"
+    }
   },
   "Post": {
     "title": { "string": {} },
