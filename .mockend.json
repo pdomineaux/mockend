@@ -22,7 +22,9 @@
       }
   },
   "Image": { 
-    "id": { "string": {}}
+    "id": { "string": {}},
+    "image": {
+      "belongsTo": "Images"
   },
   "Post": {
     "title": { "string": {} },
