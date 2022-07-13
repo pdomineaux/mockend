@@ -1,10 +1,7 @@
 {
   "User": {
     "title": { "string": {} }
-  }
-},
-
-{
+  },
   "Product": {
     "id": { "string": {}},
     "name": { "string": {}},
